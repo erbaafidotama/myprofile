@@ -1,5 +1,6 @@
-// import iconProfile from "@/app/statics/iconProfile";
 import Image from "next/image";
+import profileImage from "../../public/images/iconprofile.png";
+
 export default function Welcome() {
   return (
     <section className="bg-gray-50">
@@ -14,7 +15,7 @@ export default function Welcome() {
           </p>
         </div>
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-          <Image src="/iconprofile.png" width={100} height={100} alt="mockup" />
+          <Image src={profileImage} width={200} height={100} alt="mockup" />
         </div>
       </div>
     </section>
