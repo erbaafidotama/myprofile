@@ -1,5 +1,5 @@
 import Image from "next/image";
-import profileImage from "../../public/images/iconprofile.png";
+import profileImage from "@/app/public/images/iconprofile.png";
 export default function Footer() {
   return (
     <footer className="p-4 bg-white sm:p-6 dark:bg-gray-800">
@@ -8,9 +8,6 @@ export default function Footer() {
           <div className="mb-6 md:mb-0">
             <a href="https://flowbite.com" className="flex items-center">
               <Image src={profileImage} alt="Profile" width={50} height={50} />
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                Flowbite
-              </span>
             </a>
           </div>
           {/* <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
