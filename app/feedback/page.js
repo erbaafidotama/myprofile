@@ -6,7 +6,7 @@ import Toast from "@/components/toast";
 
 export default function Feedback() {
   const [totalPesan, setTotalPesan] = useState(1);
-  const [showToastSuccess, setShowToastSuccess] = useState(true);
+  const [showToastSuccess, setShowToastSuccess] = useState(false);
   const [showLoadingSubmit, setShowLoadingSubmit] = useState(false);
   const {
     register,
