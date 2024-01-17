@@ -6,7 +6,7 @@ import Toast from "@/components/toast";
 
 export default function Feedback() {
   const [totalPesan, setTotalPesan] = useState(1);
-  const [showToastSuccess, setShowToastSuccess] = useState(false);
+  const [showToastSuccess, setShowToastSuccess] = useState(true);
   const [showLoadingSubmit, setShowLoadingSubmit] = useState(false);
   const {
     register,
@@ -69,12 +69,16 @@ export default function Feedback() {
             dan saran bagi diri saya untuk membangun ataupun memperbaiki kinerja
             saya sebagai karyawan Trees khususnya frontend HARPA.
           </p>
-          <p className="mb-8 text-sm font-light text-center text-gray-500 lg:mb-16 dark:text-gray-400 sm:text-xl">
+          <p className="mb-3 text-sm font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
             Tenang saja, dari website ataupun halaman ini saya tidak mengambil
             data pribadi dan info apapun dari teman-teman. Halaman ini hanya
-            menyimpan respon teman-teman yang ditulis pada form di bawah. Terima
-            kasih karena menyediakan waktu untuk membantu saya lebih baik dalam
-            bekerja :)
+            menyimpan kritik dan saran teman-teman yang ditulis pada form di
+            bawah. Terima kasih karena menyediakan waktu untuk membantu saya
+            lebih baik dalam bekerja :)
+          </p>
+          <p className="mb-8 text-sm font-light text-center text-gray-500 lg:mb-16 dark:text-gray-400 sm:text-xl">
+            Jika dirasa ada pesan yang kurang, teman-teman bisa submit
+            berkali-kali kok.
           </p>
 
           <div className="space-y-8">
