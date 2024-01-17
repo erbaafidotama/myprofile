@@ -144,7 +144,7 @@ export default function Feedback() {
         </div>
       </section>
       {showToastSuccess && (
-        <div className="absolute top-2 right-2">
+        <div className="absolute lg:top-2 right-2 top-36">
           <Toast
             message="Pesan Kamu Berhasil Disimpan"
             handleClose={onHandleClose}
