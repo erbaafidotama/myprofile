@@ -83,6 +83,7 @@ export default function Footer() {
           </span>
           <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             <a
+              target="_blank"
               href="https://twitter.com/erbaa_e"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
@@ -96,6 +97,7 @@ export default function Footer() {
               </svg>
             </a>
             <a
+              target="_blank"
               href="https://github.com/erbaafidotama"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
